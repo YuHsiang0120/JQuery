@@ -1,0 +1,387 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .wrap {
+  max-width: 1024px;
+  margin: auto;
+}
+
+body .wrap ._title {
+  background-color: #f6f6f6;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 6px;
+}
+
+body .wrap ._title li a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrap ._title .fb {
+  margin-right: 5px;
+}
+
+body .wrap ._title .fb span {
+  color: #4460a0;
+  padding-right: 15px;
+  border-right: 2px solid rgba(186, 171, 171, 0.811);
+}
+
+body .wrap ._title .twitter span {
+  color: #00aaec;
+}
+
+body .wrap ._title img {
+  margin: 4px;
+}
+
+body .wrap header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wrap header h1 a {
+  background-image: url("../images/logo.png");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 184px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+body .wrap header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body .wrap header .nav a {
+  text-decoration: none;
+  padding: 1rem 0;
+  color: #42d3a9;
+  font-weight: bolder;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+}
+
+body .wrap header .nav li {
+  width: 100px;
+  position: relative;
+}
+
+body .wrap header .nav ul {
+  display: none;
+}
+
+body .wrap .swiper {
+  max-width: 1024px;
+  height: 346px;
+  z-index: 99;
+}
+
+body .wrap .swiper .banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 346px;
+  position: relative;
+}
+
+body .wrap .swiper h2 {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 35px 45px;
+  top: calc(50% - 70px);
+}
+
+body .wrap .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 64px 0px;
+}
+
+body .wrap .content li {
+  margin: 10px 20px;
+  padding: 20px 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: calc(100% / 3 - 40px);
+}
+
+body .wrap .content li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrap .content li div img {
+  width: 100%;
+}
+
+body .wrap .content li h2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+body .wrap .content li p {
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+body .wrap .content .card ul {
+  margin-left: 10px;
+}
+
+body .wrap .content .card ul li {
+  list-style-type: disc;
+  margin: 0px;
+  padding: 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 200px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  border: 0px;
+}
+
+body .wrap .table {
+  max-width: 1024px;
+  padding: 50px;
+}
+
+body .wrap .table h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+body .wrap .table .course {
+  margin: 0px auto;
+}
+
+body .wrap .table .course thead {
+  background-color: #f7f7f7;
+  border-top: 0.5px solid #ece4e4;
+  border-bottom: 1px solid #ece4e4;
+  font-weight: bolder;
+  text-align: justify;
+  width: 100%;
+}
+
+body .wrap .table .course thead th {
+  padding: 10px;
+}
+
+body .wrap .table tbody tr td {
+  border-bottom: 1px solid #ece4e4;
+  padding: 10px;
+}
+
+body .wrap .table tbody ._low,
+body .wrap .table tbody ._have,
+body .wrap .table tbody ._normal,
+body .wrap .table tbody ._can,
+body .wrap .table tbody ._good {
+  color: #33b897;
+}
+
+.dropdown-open {
+  position: absolute;
+  z-index: 300;
+}
+
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  width: 2rem;
+  background-color: #00aaec;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
